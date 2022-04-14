@@ -20,7 +20,7 @@
 		6C9223802808972D007012F3 /* BlobShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobShape.swift; sourceTree = "<group>"; };
 		6C9223822808989B007012F3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6C92238428089E63007012F3 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		6C9CFF9F2808870100363E2C /* MyMoodLogoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMoodLogoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9CFF9F2808870100363E2C /* Proslushkashow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proslushkashow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9CFFA22808870100363E2C /* MyMoodLogoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoodLogoSwiftUIApp.swift; sourceTree = "<group>"; };
 		6C9CFFA42808870100363E2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C9CFFA62808870200363E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		6C9CFFA02808870100363E2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C9CFF9F2808870100363E2C /* MyMoodLogoSwiftUI.app */,
+				6C9CFF9F2808870100363E2C /* Proslushkashow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C9CFF9E2808870100363E2C /* MyMoodLogoSwiftUI */ = {
+		6C9CFF9E2808870100363E2C /* Proslushkashow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C9CFFAD2808870300363E2C /* Build configuration list for PBXNativeTarget "MyMoodLogoSwiftUI" */;
+			buildConfigurationList = 6C9CFFAD2808870300363E2C /* Build configuration list for PBXNativeTarget "Proslushkashow" */;
 			buildPhases = (
 				6C9CFF9B2808870100363E2C /* Sources */,
 				6C9CFF9C2808870100363E2C /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = MyMoodLogoSwiftUI;
+			name = Proslushkashow;
 			productName = MyMoodLogoSwiftUI;
-			productReference = 6C9CFF9F2808870100363E2C /* MyMoodLogoSwiftUI.app */;
+			productReference = 6C9CFF9F2808870100363E2C /* Proslushkashow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6C9CFF9A2808870000363E2C /* Build configuration list for PBXProject "MyMoodLogoSwiftUI" */;
+			buildConfigurationList = 6C9CFF9A2808870000363E2C /* Build configuration list for PBXProject "Proslushkashow" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C9CFF9E2808870100363E2C /* MyMoodLogoSwiftUI */,
+				6C9CFF9E2808870100363E2C /* Proslushkashow */,
 			);
 		};
 /* End PBXProject section */
@@ -295,6 +295,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,7 +304,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.MyMoodLogoSwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Proslushkashow;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,6 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +334,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.MyMoodLogoSwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Proslushkashow;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C9CFF9A2808870000363E2C /* Build configuration list for PBXProject "MyMoodLogoSwiftUI" */ = {
+		6C9CFF9A2808870000363E2C /* Build configuration list for PBXProject "Proslushkashow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C9CFFAB2808870300363E2C /* Debug */,
@@ -351,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C9CFFAD2808870300363E2C /* Build configuration list for PBXNativeTarget "MyMoodLogoSwiftUI" */ = {
+		6C9CFFAD2808870300363E2C /* Build configuration list for PBXNativeTarget "Proslushkashow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C9CFFAE2808870300363E2C /* Debug */,
