@@ -11,12 +11,10 @@ struct CardView: View {
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 25)
-                .foregroundColor(.black.opacity(0.5))
+                .foregroundColor(.secondary.opacity(0.5))
                 .frame(width: 400, height: 200)
             
-            
-            VStack{
-                
+            VStack(alignment: .center){
                 Text("C A T E G O R I E S")
                     .font(.title2)
                     .foregroundColor(.white)
@@ -24,41 +22,39 @@ struct CardView: View {
                     .frame(width: 0, height: 30)
                 
                 HStack{
-                    
-                    VStack{
+                    VStack(alignment: .leading){
                         MiniCardView(
                             color: Color("muniredone"),
-                            text: "R O C K"
+                            text: "P O P"
                         )
-                            .offset(x: 8, y: 0)
                         MiniCardView(
                             color: Color("municyan"),
                             text: "R A P"
                         )
                         MiniCardView(
                             color: Color("muniyellow"),
-                            text: "M E T A L"
+                            text: "R O C K"
                         )
-                            .offset(x: 14, y: 0)
                     }
+                    .frame(alignment: .leading)
+                    
                     Spacer()
                         .frame(width: 60, height: 0)
                     
-                    VStack{
+                    VStack(alignment: .leading){
                         MiniCardView(
                             color: Color("muniviolet"),
-                            text: "J A Z Z"
+                            text: "P O D C A C T"
                         )
                         MiniCardView(
                             color: Color("munigreen"),
                             text: "D I S C O"
                         )
-                            .offset(x: 8, y: 0)
                         Spacer()
                             .frame(width: 80, height: 0)
                     }
                 }
-                .offset(x: -5, y: 0)
+                .offset(x: 6, y: 0)
             }
             .padding()
         }
@@ -76,7 +72,7 @@ struct MiniCardView: View {
     @State var text = "R O C K"
     
     var body: some View {
-        HStack{
+        HStack(alignment: .top){
             RoundedRectangle(cornerRadius: 5)
                 .foregroundColor(color)
                 .frame(width: 20, height: 20)
