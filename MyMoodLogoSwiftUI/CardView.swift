@@ -14,51 +14,53 @@ struct CardView: View {
                 .foregroundColor(.black.opacity(0.5))
                 .frame(width: 400, height: 200)
             
-            ZStack{
-                VStack{
-                    Text("C A T E G O R I E S")
-                        .font(.title2)
-                        .foregroundColor(.white)
-                    Spacer()
-                        .frame(width: 0, height: 30)
+            
+            VStack{
+                
+                Text("C A T E G O R I E S")
+                    .font(.title2)
+                    .foregroundColor(.white)
+                Spacer()
+                    .frame(width: 0, height: 30)
+                
+                HStack{
                     
-                    HStack{
-                        VStack{
-                            MiniCardView(
-                                color: Color("muniredone"),
-                                text: "R O C K"
-                            )
-                                .offset(x: 8, y: 0)
-                            MiniCardView(
-                                color: Color("municyan"),
-                                text: "R A P"
-                            )
-                            MiniCardView(
-                                color: Color("muniyellow"),
-                                text: "M E T A L"
-                            )
-                                .offset(x: 14, y: 0)
-                        }
-                        Spacer()
-                            .frame(width: 60, height: 0)
-                        VStack{
-                            MiniCardView(
-                                color: Color("muniviolet"),
-                                text: "J A Z Z"
-                            )
-                            MiniCardView(
-                                color: Color("munigreen"),
-                                text: "D I S C O"
-                            )
-                                .offset(x: 8, y: 0)
-                            Spacer()
-                                .frame(width: 80, height: 0)
-                        }
+                    VStack{
+                        MiniCardView(
+                            color: Color("muniredone"),
+                            text: "R O C K"
+                        )
+                            .offset(x: 8, y: 0)
+                        MiniCardView(
+                            color: Color("municyan"),
+                            text: "R A P"
+                        )
+                        MiniCardView(
+                            color: Color("muniyellow"),
+                            text: "M E T A L"
+                        )
+                            .offset(x: 14, y: 0)
                     }
-                    .offset(x: -5, y: 0)
+                    Spacer()
+                        .frame(width: 60, height: 0)
+                    
+                    VStack{
+                        MiniCardView(
+                            color: Color("muniviolet"),
+                            text: "J A Z Z"
+                        )
+                        MiniCardView(
+                            color: Color("munigreen"),
+                            text: "D I S C O"
+                        )
+                            .offset(x: 8, y: 0)
+                        Spacer()
+                            .frame(width: 80, height: 0)
+                    }
                 }
-                .padding()
+                .offset(x: -5, y: 0)
             }
+            .padding()
         }
     }
 }
