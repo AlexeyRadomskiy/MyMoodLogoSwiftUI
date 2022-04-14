@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C9223812808972D007012F3 /* BlobShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9223802808972D007012F3 /* BlobShape.swift */; };
+		6C9223832808989B007012F3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9223822808989B007012F3 /* CardView.swift */; };
 		6C9CFFA32808870100363E2C /* MyMoodLogoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CFFA22808870100363E2C /* MyMoodLogoSwiftUIApp.swift */; };
 		6C9CFFA52808870100363E2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CFFA42808870100363E2C /* ContentView.swift */; };
 		6C9CFFA72808870200363E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9CFFA62808870200363E2C /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C9223802808972D007012F3 /* BlobShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobShape.swift; sourceTree = "<group>"; };
+		6C9223822808989B007012F3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6C9CFF9F2808870100363E2C /* MyMoodLogoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMoodLogoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9CFFA22808870100363E2C /* MyMoodLogoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoodLogoSwiftUIApp.swift; sourceTree = "<group>"; };
 		6C9CFFA42808870100363E2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				6C9CFFA22808870100363E2C /* MyMoodLogoSwiftUIApp.swift */,
 				6C9CFFA42808870100363E2C /* ContentView.swift */,
+				6C9223802808972D007012F3 /* BlobShape.swift */,
+				6C9223822808989B007012F3 /* CardView.swift */,
 				6C9CFFA62808870200363E2C /* Assets.xcassets */,
 				6C9CFFA82808870200363E2C /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				6C9CFFA52808870100363E2C /* ContentView.swift in Sources */,
 				6C9CFFA32808870100363E2C /* MyMoodLogoSwiftUIApp.swift in Sources */,
+				6C9223832808989B007012F3 /* CardView.swift in Sources */,
+				6C9223812808972D007012F3 /* BlobShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
