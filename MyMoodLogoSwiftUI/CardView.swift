@@ -44,7 +44,7 @@ struct CardView: View {
                     VStack(alignment: .leading){
                         MiniCardView(
                             color: Color("muniviolet"),
-                            text: "P O D C A C T"
+                            text: "P O D C A S T"
                         )
                         MiniCardView(
                             color: Color("munigreen"),
